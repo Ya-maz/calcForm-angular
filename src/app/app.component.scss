@@ -1,0 +1,67 @@
+.main{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba($color: #000000, $alpha: .3);
+    width: 55vw;
+    flex-direction: column;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.table {
+    border: 1px solid rgba($color: #000000, $alpha: .3);
+    flex-direction: column;
+}
+th {
+    background-color: rgba($color: #000000, $alpha: .1);
+    align-items: flex-start;
+    padding: 5px 0 5px 10px;
+
+}
+tr {
+    border: 1px solid rgba($color: #000000, $alpha: .3);
+    padding: 5px 0 5px 10px;
+}
+
+.dflx {
+    display: flex;
+}
+.flex1 {
+    flex: 1;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.m10{
+    margin: 15px
+}
+.prl{
+    padding: 0 10px;
+}
+.m0p0 {
+    margin: 0;
+    padding: 0;
+}
+.w45 {
+    width: 70%;
+}
